@@ -15,7 +15,7 @@ def calculate_difference(set_a, set_b):
     return ','.join(difference)
 
 # Streamlit UI components
-st.title("Airport Code Difference Calculator")
+st.title("Airport Code Difference Checker")
 
 # Input areas for sets A and B
 input_a = st.text_area("Enter Airline Zones in Bunker Database: (A)", height=150)
