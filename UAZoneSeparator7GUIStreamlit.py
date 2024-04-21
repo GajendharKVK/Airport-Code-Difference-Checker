@@ -36,4 +36,18 @@ if st.button("Calculate Difference"):
 
 # Display custom quote at the bottom right
 st.markdown("<style>.reportview-container .main footer {visibility: hidden;}</style>", unsafe_allow_html=True)
-st.markdown("<style>.footer {position: fixed; right: 10px; bottom: 10px; color: grey; font-size: small; font-style: italic;}</style><div class='footer'>Made by Gaj</div>", unsafe_allow_html=True)
+st.markdown("st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        center: 10px;
+        bottom: 10px;
+        color: grey;
+        font-size: medium;  /* Larger font size */
+        font-weight: bold;  /* Bold font weight */
+        font-style: italic; /* Italic style */
+    }
+    </style>
+    <div class='footer'>Made by Gaj</div>
+    """, unsafe_allow_html=True)
