@@ -18,15 +18,15 @@ def calculate_difference(set_a, set_b):
 st.title("Airport Code Difference Calculator")
 
 # Input areas for sets A and B
-input_a = st.text_area("Enter Airline Zones in Bunker Database:", height=150)
-input_b = st.text_area("Enter Airport Codes in the Rate Sheet:", height=150)
+input_a = st.text_area("Enter Airline Zones in Bunker Database: (A)", height=150)
+input_b = st.text_area("Enter Airport Codes in the Rate Sheet: (B)", height=150)
 
 # Button to calculate difference
 if st.button("Calculate Difference"):
     if input_a and input_b:  # Check if input is not empty
         result = calculate_difference(input_a, input_b)
         # Display results
-        st.text_area("Difference Results:", value=result, height=100)
+        st.text_area("Difference Results: (A-B)", value=result, height=100)
         # Count of airport codes
         st.write(f"Total Codes in A: {len(process_input(input_a))}")
         st.write(f"Total Codes in B: {len(process_input(input_b))}")
