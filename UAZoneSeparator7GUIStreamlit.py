@@ -35,8 +35,9 @@ if st.button("Calculate Difference"):
         st.error("Please enter airport codes in both fields.")
 
 # Display custom quote at the bottom right
+#st.markdown("<style>.reportview-container .main footer {visibility: hidden;}</style>", unsafe_allow_html=True)
 st.markdown("<style>.reportview-container .main footer {visibility: hidden;}</style>", unsafe_allow_html=True)
-st.markdown("st.markdown(
+st.markdown(
     """
     <style>
     .footer {
