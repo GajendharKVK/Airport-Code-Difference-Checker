@@ -18,7 +18,7 @@ def calculate_difference(set_a, set_b):
 st.title("Airport Code Difference Checker")
 st.markdown(
     """
-    <div style='color: grey; font-size: medium; font-weight: bold; font-style: italic;'>
+    <div style='text-align: right; color: grey; font-size: medium; font-weight: bold; font-style: italic;'>
         Made by Gaj
     </div>
     """, unsafe_allow_html=True
