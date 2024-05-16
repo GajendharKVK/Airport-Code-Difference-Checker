@@ -19,7 +19,7 @@ st.title("Airport Code Difference Checker")
 st.markdown(
     """
     <div style='text-align: right; color: grey; font-size: medium; font-weight: bold; font-style: italic;'>
-        Made by Gaj
+        - Made by Gaj
     </div>
     """, unsafe_allow_html=True
 )
