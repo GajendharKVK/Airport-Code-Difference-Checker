@@ -16,6 +16,13 @@ def calculate_difference(set_a, set_b):
 
 # Streamlit UI components
 st.title("Airport Code Difference Checker")
+st.markdown(
+    """
+    <div style='color: grey; font-size: medium; font-weight: bold; font-style: italic;'>
+        Made by Gaj
+    </div>
+    """, unsafe_allow_html=True
+)
 
 # Input areas for sets A and B
 input_a = st.text_area("Enter Airline Zones in Bunker Database: (A)", height=150)
@@ -35,7 +42,7 @@ if st.button("Calculate Difference"):
         st.error("Please enter airport codes in both fields.")
 
 # Display custom quote at the bottom right
-st.markdown("<style>.reportview-container .main footer {visibility: hidden;}</style>", unsafe_allow_html=True)
+'''st.markdown("<style>.reportview-container .main footer {visibility: hidden;}</style>", unsafe_allow_html=True)
 st.markdown(
     """
     <style>
@@ -50,4 +57,4 @@ st.markdown(
     }
     </style>
     <div class='footer'>Made by Gaj</div>
-    """, unsafe_allow_html=True)
+    """, unsafe_allow_html=True)'''
